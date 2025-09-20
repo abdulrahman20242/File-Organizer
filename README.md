@@ -24,10 +24,20 @@ It provides two organization modes:
 ---
 
 ## 🛠 Installation
-3
+
 1. Clone or download this repository.
 2. Make sure you have **Python 3.13.7** (or later).
 3. Install dependencies (none required here, but just in case):
+
+---
+
+## 📌 Usage
+
+python file_organizer.py "C:\path\to\folder" --mode type --action move
+
+Examples
+Organize by type and move files:
+python file_organizer.py "C:\Users\You\Downloads" --mode type --action move
 
 ```bash
 pip install -r requirements.txt
