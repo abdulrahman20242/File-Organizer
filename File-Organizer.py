@@ -15,7 +15,7 @@ Features:
 - Logging (console + optional log file)
 
 Usage:
-    python file_organizer.py "C:\path\to\folder" --mode type --action move --recursive
+    python File-Organizer.py "C:\path\to\folder" --mode type --action move --recursive
 """
 
 import argparse
@@ -186,3 +186,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
