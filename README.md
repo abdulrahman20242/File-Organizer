@@ -40,7 +40,7 @@ pip install -r requirements.txt
 Run the script from terminal:
 
 ```bash
-python file_organizer.py "C:\path\to\folder" --mode type --action move
+python File-Organizer.py "C:\path\to\folder" --mode type --action move
 ```
 
 ### Examples
@@ -48,25 +48,25 @@ python file_organizer.py "C:\path\to\folder" --mode type --action move
 * **Organize by type** and move files:
 
 ```bash
-python file_organizer.py "C:\Users\You\Downloads" --mode type --action move
+python File-Organizer.py "C:\Users\You\Downloads" --mode type --action move
 ```
 
 * **Organize by name** and copy files:
 
 ```bash
-python file_organizer.py "C:\Users\You\Documents" --mode name --action copy
+python File-Organizer.py "C:\Users\You\Documents" --mode name --action copy
 ```
 
 * **Dry-run mode** (no changes applied):
 
 ```bash
-python file_organizer.py "C:\Users\You\Desktop" --mode type --dry-run
+python File-Organizer.py "C:\Users\You\Desktop" --mode type --dry-run
 ```
 
 * **Using a custom JSON mapping**:
 
 ```bash
-python file_organizer.py "C:\Data" --mode type --config custom_mapping.json
+python File-Organizer.py "C:\Data" --mode type --config custom_mapping.json
 ```
 
 ---
