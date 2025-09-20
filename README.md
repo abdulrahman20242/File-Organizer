@@ -31,12 +31,60 @@ It provides two organization modes:
 
 ```bash
 pip install -r requirements.txt
-
+````
 
 ---
 
-📌 Usage
+## 📌 Usage
 
 Run the script from terminal:
+
 ```bash
 python file_organizer.py "C:\path\to\folder" --mode type --action move
+```
+
+### Examples
+
+* **Organize by type** and move files:
+
+```bash
+python file_organizer.py "C:\Users\You\Downloads" --mode type --action move
+```
+
+* **Organize by name** and copy files:
+
+```bash
+python file_organizer.py "C:\Users\You\Documents" --mode name --action copy
+```
+
+* **Dry-run mode** (no changes applied):
+
+```bash
+python file_organizer.py "C:\Users\You\Desktop" --mode type --dry-run
+```
+
+* **Using a custom JSON mapping**:
+
+```bash
+python file_organizer.py "C:\Data" --mode type --config custom_mapping.json
+```
+
+---
+
+## ⚙️ JSON Configuration Example
+
+Example `custom_mapping.json` file:
+
+```json
+{
+  "Design": [".psd", ".ai", ".xd"],
+  "Data": [".csv", ".sql"]
+}
+```
+
+---
+
+## 📒 Notes
+
+* Default destination folder will be created as **Organized\_Files** inside the source folder.
+* Works on **Windows, macOS, and Linux**.
