@@ -24,7 +24,7 @@ It provides two organization modes:
 ---
 
 ## 🛠 Installation
-
+3
 1. Clone or download this repository.
 2. Make sure you have **Python 3.13.7** (or later).
 3. Install dependencies (none required here, but just in case):
