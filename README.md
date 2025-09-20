@@ -118,12 +118,3 @@ Example `custom_mapping.json` file:
 * Works on **Windows, macOS, and Linux**.
 * GUI supports multilingual text (currently **English** and **Arabic**).
 * On Windows, you can just double-click `Run-Organizer.bat` to start the GUI without opening the terminal.
-
----
-
-```
-
----
-
-تحب أضيف كمان **صور Screenshots** للـ GUI (قبل/بعد) في الـ README.md عشان تبقى أوضح؟
-```
