@@ -1,0 +1,30 @@
+{
+  "en": {
+    "title": "📂 File Organizer",
+    "source": "Source Folder:",
+    "browse": "Browse",
+    "mode": "Mode:",
+    "action": "Action:",
+    "conflict": "Conflict Policy:",
+    "recursive": "Recursive",
+    "dry_run": "Dry-run",
+    "run": "Run Organizer",
+    "log": "Log Output:",
+    "done": "✔ Done!",
+    "error": "❌ Error"
+  },
+  "ar": {
+    "title": "📂 منظم الملفات",
+    "source": "المجلد المصدر:",
+    "browse": "تصفح",
+    "mode": "النمط:",
+    "action": "الإجراء:",
+    "conflict": "سياسة التعارض:",
+    "recursive": "بالتدرج",
+    "dry_run": "تشغيل تجريبي",
+    "run": "ابدأ التنظيم",
+    "log": "سجل التنفيذ:",
+    "done": "✔ تم بنجاح!",
+    "error": "❌ خطأ"
+  }
+}
