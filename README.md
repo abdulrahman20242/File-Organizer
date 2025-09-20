@@ -1,6 +1,7 @@
 # 📂 File Organizer
 
-A simple and flexible command-line tool written in Python to automatically **organize files** inside a folder.
+A simple, flexible, and now **multi-interface tool** written in Python to automatically **organize files** inside a folder.  
+You can use it either from the **command-line (CLI)** or with a **graphical interface (GUI)**.
 
 It provides two organization modes:
 1. **Type-based organization** → Group files into folders by file type (Videos, Images, Documents, Audio, etc.)
@@ -20,6 +21,12 @@ It provides two organization modes:
 - **Recursive processing** → include subdirectories if needed
 - **Custom categorization** → JSON config for file extension mappings
 - **Logging system** → display actions in console and optionally save to a log file
+- **Graphical User Interface (GUI)** with:
+  - Folder selection
+  - Mode, Action, and Conflict Policy options
+  - **Progress Bar** to show operation progress
+  - **i18n support (multi-language)** → currently English / Arabic
+- **Windows Batch File (.bat)** included for quick launch with double-click
 
 ---
 
@@ -35,7 +42,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📌 Usage
+## 📌 Usage (CLI)
 
 Run the script from terminal:
 
@@ -71,6 +78,27 @@ python File-Organizer.py "C:\Data" --mode type --config custom_mapping.json
 
 ---
 
+## 🖥 Usage (GUI)
+
+To run the graphical version:
+
+```bash
+python File-Organizer-GUI.py
+```
+
+Or simply double-click the **`Run-Organizer.bat`** file (on Windows).
+
+GUI Features:
+
+* Select source folder via file picker
+* Choose mode, action, and conflict resolution policy
+* Enable recursive or dry-run options
+* Progress bar to show number of processed files
+* Log area to display actions
+* Language selector (English / Arabic)
+
+---
+
 ## ⚙️ JSON Configuration Example
 
 Example `custom_mapping.json` file:
@@ -88,3 +116,14 @@ Example `custom_mapping.json` file:
 
 * Default destination folder will be created as **Organized\_Files** inside the source folder.
 * Works on **Windows, macOS, and Linux**.
+* GUI supports multilingual text (currently **English** and **Arabic**).
+* On Windows, you can just double-click `Run-Organizer.bat` to start the GUI without opening the terminal.
+
+---
+
+```
+
+---
+
+تحب أضيف كمان **صور Screenshots** للـ GUI (قبل/بعد) في الـ README.md عشان تبقى أوضح؟
+```
