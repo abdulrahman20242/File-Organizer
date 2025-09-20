@@ -28,14 +28,22 @@ from typing import Dict, Optional
 
 # Default file type mappings
 DEFAULT_CATEGORIES = {
-    "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"],
-    "Videos": [".mp4", ".mkv", ".avi", ".mov", ".wmv", ".flv"],
-    "Documents": [".pdf", ".docx", ".doc", ".txt", ".pptx", ".xlsx", ".odt"],
-    "Audio": [".mp3", ".wav", ".aac", ".ogg", ".flac"],
-    "Archives": [".zip", ".rar", ".7z", ".tar", ".gz"],
-    "Scripts": [".py", ".js", ".sh", ".bat", ".php", ".rb"],
-    "Programs": [".exe",],
-    "Others": []
+  "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp", ".heic"],
+  "Videos": [".mp4", ".mkv", ".avi", ".mov", ".wmv", ".wav", ".flv", ".webm"],
+  "Audio": [".mp3", ".wav", ".aac", ".ogg", ".flac", ".m4a", ".wma"],
+  "Documents": [".pdf", ".docx", ".doc", ".txt", ".pptx", ".ppt", ".xlsx", ".xls", ".odt", ".csv", ".rtf"],
+  "Programming": [".py", ".js", ".ts", ".java", ".c", ".cpp", ".cs", ".php", ".rb", ".go", ".swift"],
+  "Scripts": [".sh", ".bat", ".ps1", ".cmd"],
+  "Spreadsheets": [".xlsx", ".xls", ".ods", ".csv"],
+  "Presentations": [".pptx", ".ppt", ".odp"],
+  "Design": [".psd", ".ai", ".xd", ".fig", ".sketch"],
+  "3D_Models": [".obj", ".fbx", ".stl", ".blend"],
+  "Archives": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2"],
+  "Data": [".json", ".xml", ".yaml", ".yml", ".sql", ".db"],
+  "Executables": [".exe", ".msi", ".apk", ".appimage"],
+  "System": [".dll", ".sys", ".ini", ".cfg"],
+  "Ebooks": [".epub", ".mobi", ".azw3"],
+  "Others": []
 }
 
 
@@ -186,4 +194,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
