@@ -1,9 +1,3 @@
-تمام ✅
-إليك النسخة المعدّلة من الملف (بالإنجليزية كما هو، لكن بدون سطر **`pip install -r requirements.txt`**)
-ومع تعديل فقرة التثبيت لتوضيح أن البرنامج لا يحتاج أي مكتبات إضافية:
-
----
-
 # 📂 File Organizer
 
 A simple, flexible, and now **multi-interface tool** written in Python to automatically **organize files** inside a folder.
