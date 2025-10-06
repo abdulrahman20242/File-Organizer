@@ -1,9 +1,16 @@
+تمام ✅
+إليك النسخة المعدّلة من الملف (بالإنجليزية كما هو، لكن بدون سطر **`pip install -r requirements.txt`**)
+ومع تعديل فقرة التثبيت لتوضيح أن البرنامج لا يحتاج أي مكتبات إضافية:
+
+---
+
 # 📂 File Organizer
 
-A simple, flexible, and now **multi-interface tool** written in Python to automatically **organize files** inside a folder.  
+A simple, flexible, and now **multi-interface tool** written in Python to automatically **organize files** inside a folder.
 You can use it either from the **command-line (CLI)** or with a **graphical interface (GUI)**.
 
 It provides two organization modes:
+
 1. **Type-based organization** → Group files into folders by file type (Videos, Images, Documents, Audio, etc.)
 2. **Name-based organization** → Create individual folders for each file using its filename (without extension)
 
@@ -11,34 +18,34 @@ It provides two organization modes:
 
 ## 🚀 Features
 
-- Organize files **by type** or **by name**
-- **Move** or **Copy** files
-- **Dry-run mode** → simulate actions without making changes
-- **Conflict resolution**:
-  - `skip` → ignore existing files
-  - `overwrite` → replace existing files
-  - `rename` → auto-rename to avoid conflicts
-- **Recursive processing** → include subdirectories if needed
-- **Custom categorization** → JSON config for file extension mappings
-- **Logging system** → display actions in console and optionally save to a log file
-- **Graphical User Interface (GUI)** with:
-  - Folder selection
-  - Mode, Action, and Conflict Policy options
-  - **Progress Bar** to show operation progress
-  - **i18n support (multi-language)** → currently English / Arabic
-- **Windows Batch File (.bat)** included for quick launch with double-click
+* Organize files **by type** or **by name**
+* **Move** or **Copy** files
+* **Dry-run mode** → simulate actions without making changes
+* **Conflict resolution**:
+
+  * `skip` → ignore existing files
+  * `overwrite` → replace existing files
+  * `rename` → auto-rename to avoid conflicts
+* **Recursive processing** → include subdirectories if needed
+* **Custom categorization** → JSON config for file extension mappings
+* **Logging system** → display actions in console and optionally save to a log file
+* **Graphical User Interface (GUI)** with:
+
+  * Folder selection
+  * Mode, Action, and Conflict Policy options
+  * **Progress Bar** to show operation progress
+  * **i18n support (multi-language)** → currently English / Arabic
+* **Windows Batch File (.bat)** included for quick launch with double-click
 
 ---
 
 ## 🛠 Installation
 
 1. Clone or download this repository.
-2. Make sure you have **Python 3.13.7** (or later).
-3. Install dependencies (none required here, but just in case):
+2. Make sure you have **Python 3.13.7** (or later) installed.
+3. No external libraries are required — everything works with Python’s built-in modules.
 
-```bash
-pip install -r requirements.txt
-````
+*(Optional)* You may install extra utilities like `tqdm`, `colorama`, or `rich` if you want prettier terminal output.
 
 ---
 
@@ -114,7 +121,7 @@ Example `custom_mapping.json` file:
 
 ## 📒 Notes
 
-* Default destination folder will be created as **Organized\_Files** inside the source folder.
+* Default destination folder will be created as **Organized_Files** inside the source folder.
 * Works on **Windows, macOS, and Linux**.
 * GUI supports multilingual text (currently **English** and **Arabic**).
 * On Windows, you can just double-click `Run-Organizer.bat` to start the GUI without opening the terminal.
